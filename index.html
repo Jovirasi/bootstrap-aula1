@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia agentes R6!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<style>
+        .item{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20px;
+        }
+
+        .buttonClass{
+
+            scale: 1.4;
+
+        }
+       
+        body{
+            background: url(/img/game_art_blurred.png) no-repeat center center fixed;
+            background-size: 100% 100%;
+        }
+
+        .botton6{
+
+            scale: 4;
+
+        }
+
+</style>
+
+</head>
+<body>
+
+    <header class="container" align="center" style="color: white;">
+        <div>
+            <h3 class="display-3">Guia de Agentes do R6</h3>
+            <p>Um guia simples para leigos</p>
+        </div>
+    </header>
+
+    <hr width="100%" color="grey"/>
+    
+    <div class="container" style="width: 800px; height: 500px;">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+      
+          <div class="carousel-inner" style="border: 4px solid rgb(0, 0, 17);">
+      
+            <div class="item active">
+              <img src="img/sledge.jpg" alt="sledge" style="width: 800px; height: 500px;">
+              <div class="carousel-caption">
+                <h3>Sledge</h3>
+                <p>Agente do ataque com uma marreta no qual destrói paredes, arames e outros gadgets</p>
+              </div>
+            </div>
+      
+            <div class="item">
+              <img src="img/thermite.jpg" alt="thermite" style="width: 800px; height: 500px;">
+              <div class="carousel-caption">
+                <h3>Thermite</h3>
+                <p>Agente atacante com uma carga exo-térmica que destrói paredes reforçadas e alçapões</p>
+              </div>
+            </div>
+
+            <div class="item">
+                <img src="img/lesion.jpg" alt="lesion" style="width: 800px; height: 500px;">
+                <div class="carousel-caption">
+                  <h3>Lesion</h3>
+                  <p>Agente da defesa que possui espinhos que ao pisar causa dano e avisa a posição</p>
+                </div>
+              </div>
+
+                <div class="item">
+                    <img src="img/kaid.jpg" alt="kaid" style="width: 800px; height: 500px;">
+                    <div class="carousel-caption">
+                    <h3>Kaid</h3>
+                    <p>Agente da defesa que possui uma garra de choque</p>
+                    </div>
+                </div>
+
+        
+          </div>
+      
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Preview</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      
+      <blockquote class="container" align="left">
+        <p><font color="white">Agentes mais usados</font></p>
+        <footer>Fonte: 
+            <a href="https://ge.globo.com/esports/rainbow-6/noticia/r6-os-operadores-mais-usados-para-ataque-e-defesa-veja-os-melhores.ghtml">
+                <font color="blue">ge.globo.com</font>
+            </a></footer>
+      </blockquote>
+
+    </div>
+    <br/><br/><br/><br/>
+
+        <div class="container">
+        <h3 style="color:aliceblue;">Nome dos agentes</h3>          
+        <table class="container table table-bordered">
+            <thead class="bg-dark" style="color: white;">
+            <tr>
+                <td>Nome do agente:</td>
+                <td>Gadget:</td>
+                <td>Ataque/Defesa:</td>
+            </tr>
+            </thead>
+
+            <tbody style="background-color: rgba(6, 1, 97, 0.803); color: aliceblue;">
+            <tr>
+                <td>Sledge</td>
+                <td>Marreta</td>
+                <td>Ataque</td>
+            </tr>
+
+            <tr>
+                <td>Thermite</td>
+                <td>Carga exo-térmica</td>
+                <td>Ataque</td>
+            </tr>
+
+            <tr>
+                <td>Lesion</td>
+                <td>Espinhos</td>
+                <td>Defesa</td>
+            </tr>
+
+            <tr>
+                <td>Kaid</td>
+                <td>Garra de choque</td>
+                <td>Defesa</td>
+            </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <br/>
+
+<div class="container" align="center">
+            <button type="button" class="btn btn-primary buttonClass" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Envie sua mensagem com seu personagem favorito!</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Nova mensagem</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Seu nome</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="message-text" class="col-form-label">Nome de seu personagem favorito:</label>
+                        <textarea class="form-control" id="recipent-text"></textarea>
+                    </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br/><br/>
+    <div align="center" class="botton6">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="container bi bi-6-square-fill" viewBox="0 0 16 16">
+        <path d="M8.111 7.863c-.92 0-1.564.65-1.564 1.576 0 1.032.703 1.635 1.558 1.635.868 0 1.553-.533 1.553-1.629 0-1.06-.744-1.582-1.547-1.582Z"/>
+        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Zm6.21 3.855c1.612 0 2.515.99 2.573 1.899H9.494c-.1-.358-.51-.815-1.312-.815-1.078 0-1.817 1.09-1.805 3.036h.082c.229-.545.855-1.155 1.98-1.155 1.254 0 2.508.88 2.508 2.555 0 1.77-1.218 2.783-2.847 2.783-.932 0-1.84-.328-2.409-1.254-.369-.603-.597-1.459-.597-2.642 0-3.012 1.248-4.407 3.117-4.407Z"/>
+    </svg>
+    </div>
+</body>
+</html>
